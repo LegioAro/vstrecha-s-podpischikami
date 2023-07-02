@@ -1,0 +1,59 @@
+// font-family: 'Unbounded', sans-serif;
+// font-family: 'Geometria', sans-serif;
+// font-family: 'Neue Machina', sans-serif;
+
+@font-face {
+  font-family: 'Geometria';
+  src: url('../fonts/Geometria.eot');
+  src: url('../fonts/Geometria.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Geometria.woff') format('woff'), url('../fonts/Geometria.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geometria';
+  src: url('../fonts/Geometria-Bold.eot');
+  src: url('../fonts/Geometria-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Geometria-Bold.woff') format('woff'),
+    url('../fonts/Geometria-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geometria';
+  src: url('../fonts/Geometria-Light.eot');
+  src: url('../fonts/Geometria-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Geometria-Light.woff') format('woff'),
+    url('../fonts/Geometria-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Machina';
+  src: url('../fonts/NeueMachina-Regular.woff2') format('woff2'),
+    url('../fonts/NeueMachina-Regular.woff') format('woff'),
+    url('../fonts/NeueMachina-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Machina';
+  src: url('../fonts/NeueMachina-Medium.woff2') format('woff2'),
+    url('../fonts/NeueMachina-Medium.woff') format('woff'),
+    url('../fonts/NeueMachina-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Machina';
+  src: url('../fonts/NeueMachina-Bold.woff2') format('woff2'),
+    url('../fonts/NeueMachina-Bold.woff') format('woff'),
+    url('../fonts/NeueMachina-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}

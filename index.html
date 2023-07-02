@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Встреча с подписчисками</title>
+  </head>
+  <body>
+    <div class="cover">
+      <div class="container">
+        <div class="cover__wrapper">
+          <div class="cover__infos">
+            <div class="cover__info">
+              <div class="cover__info-title">Алматы</div>
+              <div class="cover__info-text">место</div>
+            </div>
+            <div class="cover__info">
+              <div class="cover__info-title">8 июля</div>
+              <div class="cover__info-text">дата</div>
+            </div>
+            <div class="cover__info">
+              <div class="cover__info-title">2 часа</div>
+              <div class="cover__info-text">продолжительность</div>
+            </div>
+            <div class="cover__info">
+              <div class="cover__info-title">Свободный</div>
+              <div class="cover__info-text">вход</div>
+            </div>
+          </div>
+          <div class="cover__title-block">
+            <div class="cover__title">Встреча</div>
+            <div class="cover__title-subtitle">с подписчисками</div>
+
+            <div class="cover__title-img"><img src="img/cover/img.png" alt="" /></div>
+          </div>
+          <div class="cover__text-block">
+            <div class="cover__text">
+              <div class="cover__text-dec cover__text-dec--1">«</div>
+              <div class="cover__text-dec cover__text-dec--2">»</div>
+              <p>
+                Когда я прилетаю в Казахстан, а там плюс три часа времени от меня, фактически я
+                как-будто прилетал в будущее. И знайте, что в будущем живут одни казахи!
+              </p>
+              <p>
+                Хочу встретиться со всеми кто меня знает и поделится своим опытом. Приходите будет
+                полезно и весело
+              </p>
+            </div>
+            <div class="cover__text-author">А. Нестеренко</div>
+          </div>
+          <button class="cover__btn btn modal__btn" data-modal-src="modal">
+            Забронировать Место
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal__wrapper" data-modal-window="modal">
+      <div class="modal__content">
+        <div class="modal__btn-close">
+          <button class="close-button">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30">
+              <path fill="none" d="M0 0h24v24H0z" />
+              <path d="M18 6L6 18M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <form id="form" class="form" action="" method="post">
+          <div class="form__title">Внесите свои данные в полях ниже</div>
+          <div class="form__text">чтобы забронировать место для участия в ивенте</div>
+          <div class="form__inputs">
+            <div class="form__input-block">
+              <input
+                type="text"
+                required
+                placeholder="Имя"
+                name="name"
+                value=""
+                class="form__input val val-name"
+              />
+            </div>
+            <div class="form__input-block">
+              <input
+                type="email"
+                required
+                placeholder="Email"
+                name="email"
+                value=""
+                class="form__input val val-email"
+              />
+            </div>
+            <div class="form__input-block">
+              <input
+                type="number"
+                required
+                placeholder="Телефон"
+                name="phone"
+                value=""
+                class="form__input"
+                id="phone"
+              />
+            </div>
+          </div>
+          <div class="form__btn"><button class="btn">Забронировать Место</button></div>
+        </form>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

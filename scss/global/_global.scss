@@ -1,0 +1,20 @@
+body {
+  background-color: #080403;
+  color: #fff;
+  font-family: var(--font-text);
+  font-weight: normal;
+  position: relative;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  &.lock {
+    overflow: hidden;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
